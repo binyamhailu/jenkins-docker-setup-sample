@@ -13,7 +13,7 @@ public class CicdDemoApplication {
     public String getMessage() {
         return "Hello CICD Integration" ;
     }
-    @GetMapping("/hello")
+    @GetMapping("/hell")
     public String getMessage1() {
         return "Hello CICD Integration" ;
     }
