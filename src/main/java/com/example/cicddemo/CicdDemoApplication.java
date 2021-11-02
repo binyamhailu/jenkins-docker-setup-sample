@@ -13,6 +13,10 @@ public class CicdDemoApplication {
     public String getMessage() {
         return "Hello CICD Integration" ;
     }
+    @GetMapping("/hello")
+    public String getMessage1() {
+        return "Hello CICD Integration" ;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(CicdDemoApplication.class, args);
